@@ -960,7 +960,7 @@ section.lazy-placeholder:after {
 }
 @media (min-width: 1024px) {
   .cid-rXW1oXUAse .collapsed:not(.navbar-short) .navbar-collapse {
-    max-height: calc(98.5vh - 3.8rem);
+    max-height: calc(98.5vh - 4.8rem);
   }
 }
 .cid-rXW1oXUAse .collapsed button.navbar-toggler {
