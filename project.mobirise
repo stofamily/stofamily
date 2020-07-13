@@ -14,9 +14,9 @@
         "dangerColor": "#767676",
         "mainFont": "Rubik",
         "display1Font": "Rubik",
-        "display1Size": 4.25,
+        "display1Size": "5",
         "display2Font": "Rubik",
-        "display2Size": 3,
+        "display2Size": "4",
         "display5Font": "Rubik",
         "display5Size": "2",
         "display7Font": "Rubik",
@@ -28,13 +28,13 @@
         "isScrollToTopButton": true
       },
       "additionalSetColors": [
+        "#2032b7",
+        "#19e0e2",
+        "#b88d2c",
+        "#fbb107",
         "#2bab21",
         "#472db4",
-        "#2fce1e",
-        "#e71b69",
-        "#219cec",
-        "#25254f",
-        "#14a0cc"
+        "#2fce1e"
       ]
     },
     "path": "@PROJECT_PATH@",
@@ -532,6 +532,12 @@
               "@media (max-width: 767px)": {
                 "padding": "1rem !important"
               }
+            },
+            "H1": {
+              "color": "#ff3366"
+            },
+            ".mbr-text, .mbr-section-btn": {
+              "color": "#b2ccd2"
             }
           },
           "_name": "header10",
@@ -555,11 +561,12 @@
               "background-image": "url(@bg-value)"
             },
             ".mbr-section-subtitle": {
-              "color": "#767676",
+              "color": "#b2ccd2",
               "font-weight": "300"
             },
             ".mbr-content-text": {
-              "color": "#767676"
+              "color": "#b2ccd2",
+              "text-align": "left"
             },
             ".card": {
               "word-wrap": "break-word",
@@ -582,10 +589,13 @@
               }
             },
             ".img-text": {
-              "color": "#c1c1c1"
+              "color": "#19e0e2"
             },
             "H4": {
-              "color": "#3a849b"
+              "color": "#2bab21"
+            },
+            ".mbr-section-title": {
+              "color": "#b88d2c"
             }
           },
           "_name": "counters6",
@@ -612,7 +622,7 @@
               "margin-bottom": "2rem"
             },
             ".mbr-section-subtitle": {
-              "color": "#767676"
+              "color": "#2032b7"
             },
             "a:not([href]):not([tabindex])": {
               "color": "#fff",

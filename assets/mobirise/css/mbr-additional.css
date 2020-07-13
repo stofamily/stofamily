@@ -9,19 +9,19 @@ body {
 }
 .display-1 {
   font-family: 'Rubik', sans-serif;
-  font-size: 4.25rem;
+  font-size: 5rem;
   font-display: swap;
 }
 .display-1 > .mbr-iconfont {
-  font-size: 6.8rem;
+  font-size: 8rem;
 }
 .display-2 {
   font-family: 'Rubik', sans-serif;
-  font-size: 3rem;
+  font-size: 4rem;
   font-display: swap;
 }
 .display-2 > .mbr-iconfont {
-  font-size: 4.8rem;
+  font-size: 6.4rem;
 }
 .display-4 {
   font-family: 'Rubik', sans-serif;
@@ -54,14 +54,14 @@ body {
 /* 0.65 - min scale variable, may vary */
 @media (max-width: 768px) {
   .display-1 {
-    font-size: 3.4rem;
-    font-size: calc( 2.1374999999999997rem + (4.25 - 2.1374999999999997) * ((100vw - 20rem) / (48 - 20)));
-    line-height: calc( 1.4 * (2.1374999999999997rem + (4.25 - 2.1374999999999997) * ((100vw - 20rem) / (48 - 20))));
+    font-size: 4rem;
+    font-size: calc( 2.4rem + (5 - 2.4) * ((100vw - 20rem) / (48 - 20)));
+    line-height: calc( 1.4 * (2.4rem + (5 - 2.4) * ((100vw - 20rem) / (48 - 20))));
   }
   .display-2 {
-    font-size: 2.4rem;
-    font-size: calc( 1.7rem + (3 - 1.7) * ((100vw - 20rem) / (48 - 20)));
-    line-height: calc( 1.4 * (1.7rem + (3 - 1.7) * ((100vw - 20rem) / (48 - 20))));
+    font-size: 3.2rem;
+    font-size: calc( 2.05rem + (4 - 2.05) * ((100vw - 20rem) / (48 - 20)));
+    line-height: calc( 1.4 * (2.05rem + (4 - 2.05) * ((100vw - 20rem) / (48 - 20))));
   }
   .display-4 {
     font-size: 0.96rem;
@@ -1132,17 +1132,25 @@ section.lazy-placeholder:after {
     padding: 1rem !important;
   }
 }
+.cid-rXWQEGZsHH H1 {
+  color: #ff3366;
+}
+.cid-rXWQEGZsHH .mbr-text,
+.cid-rXWQEGZsHH .mbr-section-btn {
+  color: #b2ccd2;
+}
 .cid-rXWXiQsqWs {
   padding-top: 90px;
   padding-bottom: 90px;
   background-color: #25254f;
 }
 .cid-rXWXiQsqWs .mbr-section-subtitle {
-  color: #767676;
+  color: #b2ccd2;
   font-weight: 300;
 }
 .cid-rXWXiQsqWs .mbr-content-text {
-  color: #767676;
+  color: #b2ccd2;
+  text-align: left;
 }
 .cid-rXWXiQsqWs .card {
   word-wrap: break-word;
@@ -1165,10 +1173,13 @@ section.lazy-placeholder:after {
   }
 }
 .cid-rXWXiQsqWs .img-text {
-  color: #c1c1c1;
+  color: #19e0e2;
 }
 .cid-rXWXiQsqWs H4 {
-  color: #3a849b;
+  color: #2bab21;
+}
+.cid-rXWXiQsqWs .mbr-section-title {
+  color: #b88d2c;
 }
 .cid-rXXj45yabM {
   padding-top: 90px;
@@ -1179,7 +1190,7 @@ section.lazy-placeholder:after {
   margin-bottom: 2rem;
 }
 .cid-rXXj45yabM .mbr-section-subtitle {
-  color: #767676;
+  color: #2032b7;
 }
 .cid-rXXj45yabM a:not([href]):not([tabindex]) {
   color: #fff;
